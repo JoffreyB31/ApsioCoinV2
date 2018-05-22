@@ -2019,7 +2019,7 @@ bool LoadBlockIndex(bool fAllowNew)
 	// vMerkleTree: 5a2e19825b
         
         // Genesis block
-        const char* pszTimestamp = "todo: replace with something that ensures no premining took place";
+        const char* pszTimestamp = "7/Feb/2018 : Elon Musk launch his Tesla Roadster into the space.";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -2037,8 +2037,8 @@ bool LoadBlockIndex(bool fAllowNew)
 
         if (fTestNet)
         {
-            block.nTime    = 1366559428;
-            block.nNonce   = 386402991;
+            block.nTime    = 1527021623;
+            block.nNonce   = 486402922;
         }
 
         //// debug print
